@@ -6,7 +6,7 @@
 #    By: tafujise <tafujise@student.42.jp>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/04/04 23:45:03 by tafujise          #+#    #+#              #
-#    Updated: 2026/04/05 00:58:47 by tafujise         ###   ########.fr        #
+#    Updated: 2026/04/06 02:22:05 by tafujise         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,9 +16,12 @@ CPP:=c++
 
 FLAGS:=-Wall -Wextra -Werror
 
-SRCS:=megaphone.cpp
+SRCS:=main.cpp\
+	  PhoneBook.cpp\
+	  Contact.cpp\
 
-HEADERS:=megaphone.hpp
+HEADERS:=PhoneBook.hpp\
+		 Contact.hpp\
 
 OBJS:=$(SRCS:%.cpp=%.o)
 
